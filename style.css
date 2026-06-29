@@ -5,16 +5,6 @@ body {
     background-color: antiquewhite;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.text {
-    margin-top: 100px;
-    text-align: center;
-}
-
 .fixed-header {
     position: fixed;
     top: 0;
@@ -22,13 +12,52 @@ a {
     text-align: center;
     background-color: maroon;
     color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ ul, ol{
+    list-style-type: none;
+    padding: 0;
     margin: 0;
+ }
+
+#welcome, .image-card {
+    margin-top: 100px;
+}
+
+.content {
+    text-align: center;
 }
 
 .recipe-list {
     background-color: white;
-    margin: 0px auto;
-    padding: 20px;
+    margin: 40px auto;
+    padding: 50px;
     width: 300px;
     
 }
+ .image-card {
+    width: 100%;
+    text-align: center;
+ }
+
+ .steps {
+    padding: 10px;
+ }
+
+ .ingredients {
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 1em;
+ }
+
+ #ingredients, li {
+    margin: .5em;
+    padding: .5em;
+ }
